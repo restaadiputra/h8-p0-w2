@@ -7,46 +7,46 @@ for (i = 0; i < rows1; i++){
 
 // 2. Menyusun Barisan Bintang Dengan Nested Looping
 var rows2 = 5;
-var start;
+var star2;
 
 for (i = 0; i < rows2; i++){
-  star = '';
+  star2 = '';
   for (j = 0; j < rows2; j++) {
-    star += '*';
+    star2 += '*';
   }
-  console.log(star);
+  console.log(star2);
 }
 
 // my other answer if not using nested loop
 var rows2 = 5;
-var star = '';
+var star2 = '';
 
 for (j = 0; j < rows2; j++) {
-  star += '*';
+  star2 += '*';
 }
 
 for (i = 0; i < rows2; i++){
-  console.log(star);
+  console.log(star2);
 }
 
 
 // 3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
 var rows3 = 5;
-var star;
+var star3;
 
 for (i = 0; i < rows3; i++){
-  star = '';
+  star3 = '';
   for (j = 0; j <= i; j++) {
-    star += '*';
+    star3 += '*';
   }
-  console.log(star);
+  console.log(star3);
 }
 
 // my other answer if not using nested loop
 var rows3 = 5;
-var star = '';
+var star3 = '';
 
 for (i = 0; i < rows3; i++){
-  star += '*';
-  console.log(star);
+  star3 += '*';
+  console.log(star3);
 }
