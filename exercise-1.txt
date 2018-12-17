@@ -1,0 +1,107 @@
+Week-2 Exercise-1 - Pseudocode Challenge
+---------------------------------------------
+1. Newton Second Law
+---------------------------------------------
+-> Formula : F = m * a
+
+-> Pseudocode :
+   STORE "mass" with any value
+   STORE "acceleration" with any value
+   
+   CALCULATE "mass" times "acceleration"
+   SET "force" value with calculation result
+   
+   DISPLAY "force"
+
+-> Try :
+   STORE "mass" with 600 
+   STORE "acceleration" with 2
+   
+   CALCULATE 600 times 2
+   SET "force" value with 1200
+   
+   DISPLAY 1200
+
+
+---------------------------------------------
+2. Tahun Kabisat
+---------------------------------------------
+
+-> Pseudocode
+   STORE "year" with any value
+   
+   IF "year" DIVIDED by 4 IS 0 
+   AND "year" DIVIDED by 100 IS NOT 0 THEN
+      DISPLAY 'leap year'      
+
+   ELSE 
+      IF "year" DIVIDED by 4 IS 0 
+      AND "year" DIVIDED by 100 IS 0 
+      AND "year" DIVIDED by 400 IS 0 THEN      
+         DISPLAY 'leap year'
+      
+      ELSE      
+         DISPLAY 'not leap year'
+
+or
+
+-> Pseudocode
+   IF "year" DIVIDED by 4 IS 0 THEN
+      IF "year" DIVIDED by 100 IS NOT 0 THEN
+         DISPLAY 'leap year'   
+      
+      ELSE 
+         IF "year" DIVIDED by 400 IS 0 THEN
+            DISPLAY 'leap year'
+
+         ELSE
+            DISPLAY 'not leap year'
+   ELSE 
+      DISPLAY 'not leap year'
+
+
+---------------------------------------------
+3. Laundry Day
+---------------------------------------------
+
+-> Pseudocode
+   STORE "cloth count" with 0
+  
+   WHILE "cloth count" < 20
+      ADD "cloth count" by 1
+   
+   DO "start laundry mechine"
+
+
+---------------------------------------------
+4. Laundry Day
+---------------------------------------------
+
+-> Pseudocode
+   STORE "student count" with 0
+
+   WHILE "student count" < 40
+      IF 'student nail' IS 'long' THEN
+         DO 'punish student'
+
+      ELSE
+         DO 'reward student'     
+
+      ADD "student count" by 1
+
+   DO 'finish check'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
