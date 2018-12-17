@@ -43,6 +43,7 @@ switch (bulan) {
     break;
   default:
     bulanString = 'Salah Bulan'
+    break;
 }
 
 console.log(tanggal + ' ' +bulanString + ' ' +tahun);
