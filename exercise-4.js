@@ -1,56 +1,53 @@
-var tanggal = 1;
-var bulan = 2;
+var tanggal =3;
+var bulan = 3;
 var tahun = 2018;
 
-var bulanString;
-
-if (1 <= tanggal <= 31) {
-  if (1 <= bulan <= 12) {
-    if (1900 <= tahun <= 2200) {
+if (1 <= tanggal && tanggal <= 31) {
+  if (1 <= bulan && bulan <= 12) {
+    if (1900 <= tahun && tahun <= 2200) {
       switch (bulan) {
         case 1:
-          bulanString = 'Januari';
+          bulan = 'Januari';
           break;
         case 2:
-          bulanString = 'Februari';
+          bulan = 'Februari';
           break;
         case 3:
-          bulanString = 'Maret';
+          bulan = 'Maret';
           break;
         case 4:
-          bulanString = 'April';
+          bulan = 'April';
           break;
         case 5:
-          bulanString = 'Mei';
+          bulan = 'Mei';
           break;
         case 6:
-          bulanString = 'Juni';
+          bulan = 'Juni';
           break;
         case 7:
-          bulanString = 'Juli';
+          bulan = 'Juli';
           break;
         case 8:
-          bulanString = 'Agustus';
+          bulan = 'Agustus';
           break;
         case 9:
-          bulanString = 'September';
+          bulan = 'September';
           break;
         case 10:
-          bulanString = 'Oktober';
+          bulan = 'Oktober';
           break;
         case 11:
-          bulanString = 'November';
+          bulan = 'November';
           break;
         case 12:
-          bulanString = 'Desember';
+          bulan = 'Desember';
           break;
         default:
-          bulanString = 'Salah Bulan'
+          bulan = 'Salah Bulan'
           break;
       }
       
-      console.log(tanggal + ' ' +bulanString + ' ' +tahun);
-      
+      console.log(tanggal + ' ' +bulan + ' ' +tahun);
     } else {
       console.log('Wrong range of year. Year must be between 1900 to 2200');
     }
